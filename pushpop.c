@@ -64,7 +64,7 @@ return -1;
 }
 else{
 *top=*top-1;
-return stackk[++(*top)];
+return stack[++(*top)];
 }
 }
 void display(int stack[],int *top)
