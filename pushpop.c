@@ -63,7 +63,7 @@ printf("underflow");
 return -1;
 }
 else{
-int del=stack[top];
+int del=stack[*top];
 *top=*top-1;
 return del;
 }
